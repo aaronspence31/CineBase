@@ -14,7 +14,7 @@ The database design follows a well-structured entity-relationship model that cap
 - **Production details** capture information about companies and countries involved in movie production
 - **Performance data** tracks revenue and other financial metrics
 
-**[View Entity Relationship Model (PDF)](Schema-Design/entity_relationship_model_diagram.pdf)**
+![Entity Relationship Model Diagram](Schema-Design/entity_relationship_model_diagram.png)
 
 ### Relational Schema
 
