@@ -2,6 +2,29 @@
 
 CineBase is a comprehensive movie database application that allows users to search, manage, and analyze movie data. The system provides detailed information about movies, their cast and crew, production details, revenue data, and user ratings.
 
+## Folder Structure
+
+```
+.
+├── Code
+│   ├── ...
+│   ├── Client       # containing client code
+|   |   |-- client.py
+|   |   |-- client_helpers.py
+│   ├── SQL          # containing SQL code and python scripts for data processing
+|   |   |-- sql_script_one.sql
+|   |   |-- temp_data_processing_script_two.py
+|   |   |-- temp_data_processing_script_three.py
+|   |   |-- sql_script_four.sql
+│   └── DataMining   # containing data mining code
+|   |   |-- data_analysis.py
+|   |   |-- feature_importance_analysis.py
+├── Schema-Design
+|   |-- entity_relationship_model_diagram.pdf
+│   └── relational_schema_diagram.png
+└── README.md
+```
+
 ## Database Design
 
 ### Entity Relationship Model
@@ -35,29 +58,6 @@ To set up the database:
 1. Download the datasets from the links above
 2. Place the dataset CSV files in the `Code/SQL/data` directory (create this directory if it doesn't exist)
 3. Follow the instructions in the "Instructions for Running SQL Code for Populating the Database" section below to import the data
-
-## Folder Structure
-
-```
-.
-├── Code
-│   ├── ...
-│   ├── Client       # containing client code
-|   |   |-- client.py
-|   |   |-- client_helpers.py
-│   ├── SQL          # containing SQL code and python scripts for data processing
-|   |   |-- sql_script_one.sql
-|   |   |-- temp_data_processing_script_two.py
-|   |   |-- temp_data_processing_script_three.py
-|   |   |-- sql_script_four.sql
-│   └── DataMining   # containing data mining code
-|   |   |-- data_analysis.py
-|   |   |-- feature_importance_analysis.py
-├── Schema-Design
-|   |-- entity_relationship_model_diagram.pdf
-│   └── relational_schema_diagram.png
-└── README.md
-```
 
 ## Client Application
 
